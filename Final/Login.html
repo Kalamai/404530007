@@ -1,0 +1,79 @@
+<?php
+
+session_start();
+?>
+<!DOCTYPE html>
+
+<html>
+
+<style>
+            table .tabStyle td	{
+			vertical-align:middle;
+			}
+		
+		html {
+            margin:0; padding:0; height: 100%;
+        }
+
+        body {
+            background-image: url(image.jpeg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+        }
+
+		.sub-mainbox
+			{
+				width: 280px;
+				height: 130px;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				margin:  -80px 0 0 -140PX;
+				border-radius: 1px;
+				background-color:rgb(150, 150, 150);
+				opacity: 0.65;
+				filter:alpha(opacity=65);
+			}
+			
+    </style>
+
+<head>
+<title>Login</title>
+</head>
+
+<body>
+
+<?php 
+     <div>
+	  <form method = "post" action = "Login.php" >
+	  
+     
+	  <table border = "0"     class= "sub-mainbox" >
+	  
+      <tr>
+         <th><font size="4">Username:  </font></th>
+         <td><input type = "text" name = "ID"></td>
+      </tr>
+      <tr>
+         <th><font size="4">Password:  </font></th>
+         <td><input type = "password" name = "pw"></td>
+      </tr>
+	 
+      <tr>
+         <td colspan = "2" align = "center">
+            <input type = "submit" value = "Login">
+         </td>
+      </tr>
+	  
+      </table>
+	  
+	  </form>
+	  </div>
+	  
+<?
+
+
+</body>
+</html>

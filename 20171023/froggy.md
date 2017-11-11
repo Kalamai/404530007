@@ -1,0 +1,38 @@
+#flexboxfroggy
+
+01. justify-content:flex-end;
+02. justify-content:center;
+03. justify-content:space-around;
+04. justify-content:space-between;
+05. align-items:flex-end;
+06. justify-content:center;  
+    align-items:center;
+07. justify-content:space-around;    
+    align-items:flex-end;
+08. flex-direction:row-reverse;
+09. flex-direction:column;
+10. justify-content:flex-end;   
+    flex-direction:row-reverse;
+11. flex-direction:column;         
+    justify-content:flex-end;
+12. flex-direction:column-reverse;     
+    justify-content:space-between;
+13. flex-direction:row-reverse;    
+    align-items: flex-end;     
+    justify-content:center;
+14. order: 1;
+15. order: -1;
+16. align-self: flex-end;
+17: align-self: flex-end;
+    order:1;
+18. flex-wrap:wrap;
+19. flex-wrap:wrap;
+    flex-direction: column;
+20. flex-flow: column wrap;
+21. align-content:flex-start;
+22. align-content:flex-end;
+23. align-content:center;
+    flex-direction: column-reverse;
+24. flex-flow: column-reverse wrap-reverse;
+    justify-content: center;
+    align-content:space-between;
